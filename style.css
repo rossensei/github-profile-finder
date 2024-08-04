@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+body {
+    background-color: #0d1117;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 80px 0;
+}
+
+.title-wrapper {
+    display: inline-block;
+    margin: auto;
+}
+
+.logo-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.logo {
+    width: 150px;
+}
+
+.title {
+    font-size: 52px;
+    font-weight: 600;
+    color: #e6edf2;
+    line-height: 3rem;
+}
+
+.subtitle {
+    font-size: 18px;
+    color: #e6edf2;
+}
+
+.form-wrapper {
+    width: 400px;
+    margin: 50px auto 0 auto;
+}
+
+.input-wrapper {
+    position: relative;
+    display: flex;
+}
+
+.search-input {
+    flex-grow: 1;
+    padding: 10px 12px;
+    border-radius: 10px;
+    background-color: transparent;
+    /* border: 1px #e6edf2 solid; */
+    border: none;
+    outline: 1px #7C00FE solid;
+    box-shadow: 0 0 10px #7C00FE;
+    color: #fff;
+    transition: outline-color 0.2s ease-in-out;
+}
+
+.search-input:focus {
+    outline-width: 2px;
+    outline-color: #fff;
+}
+
+.search-input::placeholder {
+    color: #e6edf2;
+}
+
+.search-input::selection {
+    background-color: #fff;
+    color: #000;
+}
+
+/* .search-input::target-text {
+    background-color: transparent;
+    color: #fff;
+} */
+
+.search-icon {
+    color: #e6edf2;
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.result {
+    margin-top: 50px;
+    display: none;
+}
+
+.result-text {
+    font-size: 26px;
+    font-weight: 500;
+    text-align: center;
+    color: #e6edf2;
+}
+
+.user-display {
+    display: none;
+    margin: 28px auto 0 auto;
+    width: 400px;
+}
+
+.avatar-wrapper {
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    background-color: #7C00FE;
+    overflow: hidden;
+}
+
+.avatar {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+
+.name {
+    margin-top: 12px;
+    color: #fff;
+    line-height: 2rem;
+}
+
+.username {
+    font-size: 22px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.follow-container {
+    font-size: 14px;
+    color: #fff;
+}
+
+.bio {
+    margin: 2px 0;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    text-wrap: wrap;
+}
+
+.profile-url {
+    display: block;
+    margin-top: 12px;
+    padding: 8px 14px;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+    color: #000;
+    background-color: #e6edf2;
+    border-radius: 8px;
+}
+
+.repo-txt {
+    margin: 12px 0;
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+}
